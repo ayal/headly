@@ -7,10 +7,10 @@ meteor package to handle facebookexternalhit responses (for og:metatags use)
 
 Use [meteorite](http://possibilities.github.com/meteorite/)
 
-Then add headly to you meteor app using:
+Then add headly to your meteor app using:
 
 ```bash
-mrt add healdy
+mrt add headly
 ```
 
 **config headly**
