@@ -25,10 +25,15 @@ In your server code use something like:
 
 .. or try the example first to get the hang of it:
 
-run the example using meteor
-navigate to the server where the example runs like so: http://theserver/healdy/madly
-click the link to see the result in the facebook debugger
-navigate to the server where the example runs like so: http://theserver/healdy/madly
-click the link to see the result in the facebook debugger
+- run the example using meteor
+
+- navigate to the server where the example runs like so: http://theserver/healdy/madly
+
+- click the link to see the result in the facebook debugger
+
+- navigate to the server where the example runs like so: http://theserver/healdy/madly
+
+- click the link to see the result in the facebook debugger
+
 look at the example's code to see what just happened
 
