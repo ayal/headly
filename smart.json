@@ -1,0 +1,12 @@
+{
+  "name": "headly",
+  "description": "meteor package to handle facebookexternalhit responses (for og:metatags use)",
+  "homepage": "https://github.com/ayal/headly",
+  "author": "Ayal Gelles" <ayalgelles@gmail.com>,
+  "version": "0.0.1",
+  "git": "https://github.com/ayal/headly",
+  "packages": {
+    "deps-extensions": {},
+    "router": {}
+  }
+}
