@@ -35,5 +35,5 @@ In your server code use something like:
 
 - click the link to see the result in the facebook debugger
 
-look at the example's code to see what just happened
+- look at the example's code to see what just happened
 
