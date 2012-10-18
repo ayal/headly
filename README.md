@@ -27,7 +27,7 @@ In your server code use something like:
 
 - run the example using meteor
 
-- navigate to the server where the example runs like so: http://theserver/healdy/madly
+- navigate to the server where the example runs like so: http://theserver/fffuu/madly
 
 - click the link to see the result in the facebook debugger
 
