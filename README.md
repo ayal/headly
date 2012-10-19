@@ -13,6 +13,8 @@ Then add headly to your meteor app using:
 mrt add headly
 ```
 
+... or ... you can clone the code to your meteor/packages directory manually
+
 **config headly**
 
 In your server code use something like:
