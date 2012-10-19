@@ -20,7 +20,7 @@ In your server code use something like:
 ```javascript
  Meteor.headly.config({tagsForRequest: function(req, callback) {
   callback('<meta property="og:title" content="headly" />');
-});
+}});
 ```
 
 .. or try the example first to get the hang of it:
