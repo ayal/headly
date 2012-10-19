@@ -20,8 +20,9 @@ mrt add headly
 In your server code use something like:
 
 ```javascript
- Meteor.headly.config({tagsForRequest: function(req) {
-  return '<meta property="og:title" content="headly" />';
+Meteor.headly.config({tagsForRequest: function(req) {
+  ... do something dynamic here, i.e get title from db based on url param ...
+  return '<meta property="og:title" content="<DYNAMIC TITLE>" />';
 }});
 ```
 
