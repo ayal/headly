@@ -8,7 +8,7 @@
     }
     
     Meteor.headly.config = function(options) {
-	Meteor.headly._options = Meteor.headly._options;
+	Meteor.headly._options = options || Meteor.headly._options;
     };
     
     __meteor_bootstrap__.app
