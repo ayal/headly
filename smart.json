@@ -3,7 +3,7 @@
   "description": "meteor package to handle facebookexternalhit responses (for og:metatags use)",
   "homepage": "https://github.com/ayal/headly",
   "author": "Ayal Gelles",
-  "version": "0.0.42",
+  "version": "0.51",
   "git": "https://github.com/ayal/headly",
-  "packages": {}
+  "packages": { }
 }
