@@ -1,4 +1,7 @@
 (function () {
+  if (typeof Fiber === "undefined") {
+    Fiber = Npm.require("fibers");
+  }
     if (!Meteor.headly) {	 
 	Meteor.headly = {};
     }
