@@ -1,7 +1,7 @@
 headly
 ======
 
-meteor package to handle facebookexternalhit responses (for og:metatags use)
+meteor package to handle external service requests to generate metatag responses (for og:metatags use)
 
 **Install**
 
@@ -20,9 +20,16 @@ mrt add headly
 In your server code use something like:
 
 ```javascript
-Meteor.headly.config({tagsForRequest: function(req) {
-  ... do something dynamic here, i.e get title from db based on url param ...
-  return '<meta property="og:title" content="<DYNAMIC TITLE>" />';
+Meteor.headly.config({
+    data: function(req){
+      //do something dynamic here, i.e get title from db based on url param
+      return {title: dynamic.title};
+    },
+    facebook: function(data) {
+      return '<meta property="og:title" content="'+data.title+'" />';
+    },
+    twitter: function(data) {
+      return '<meta name="twitter:card" content="summary"> ';
 }});
 ```
 
